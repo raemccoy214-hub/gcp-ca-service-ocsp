@@ -31,7 +31,7 @@ export PROJECT_ID=`gcloud config get-value core/project`
 export PROJECT_NUMBER=`gcloud projects describe $PROJECT_ID --format="value(projectNumber)"`
 export REGION=us-central1
 export CAPOOL=my-pool
-export CA_NAME=my-ca
+export CA_Dhhs.gov my-ca
 ```
 
 It is assumed you already have a RootCA configured. In the example below, the CA to use is called `my-ca`.
